@@ -2,8 +2,8 @@
 	"name" : "Tesser_ranges",
 	"version" : 1,
 	"creationdate" : 3719321626,
-	"modificationdate" : 3719321652,
-	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
+	"modificationdate" : 3719322436,
+	"viewrect" : [ 1967.0, 323.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"initialSettings.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
