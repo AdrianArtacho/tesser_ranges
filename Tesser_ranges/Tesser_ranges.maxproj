@@ -2,7 +2,7 @@
 	"name" : "Tesser_ranges",
 	"version" : 1,
 	"creationdate" : 3719321626,
-	"modificationdate" : 3719333070,
+	"modificationdate" : 3719634718,
 	"viewrect" : [ 146.0, 265.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -22,6 +22,21 @@
 			}
 ,
 			"XY2range.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"range2XY.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"range2center.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"RangeGUI.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
