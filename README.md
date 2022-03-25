@@ -8,18 +8,13 @@ This Patch is part of the TESSER environment.
 
 ![TTESS:Logo](https://docs.google.com/drawings/d/e/2PACX-1vT26NziYMaLrGHlvNspiJ9dOjXR6hZyVxrGwfkgV1MwvMTWtAWh5ZUqMsit5gSllXemcGajjddqfqnc/pub?w=131&h=129)
 
-### What is this repository for? ###
+## Usage ##
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+**CC86** Center of the range
 
-### How do I get set up? ###
+**CC87** Width of the range
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+# To-Do #
+
+* Finish documentation...
 
