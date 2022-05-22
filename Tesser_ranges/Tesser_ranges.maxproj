@@ -2,7 +2,7 @@
 	"name" : "Tesser_ranges",
 	"version" : 1,
 	"creationdate" : 3719321626,
-	"modificationdate" : 3736090807,
+	"modificationdate" : 3736092362,
 	"viewrect" : [ -355.0, 67.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -42,6 +42,16 @@
 			}
 ,
 			"download-sheet.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/[TesserAkt]/TesserAkt/tesser_ranges/download-sheet",
+					"projectrelativepath" : "../download-sheet"
+				}
+
+			}
+,
+			"dict-to-menu.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
