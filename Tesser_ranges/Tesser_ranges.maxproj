@@ -2,8 +2,8 @@
 	"name" : "Tesser_ranges",
 	"version" : 1,
 	"creationdate" : 3719321626,
-	"modificationdate" : 3719634718,
-	"viewrect" : [ 146.0, 265.0, 300.0, 500.0 ],
+	"modificationdate" : 3736090807,
+	"viewrect" : [ -355.0, 67.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,12 +16,17 @@
 				"toplevel" : 1
 			}
 ,
-			"initialSettings.maxpat" : 			{
+			"RangeGUI.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"XY2range.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"initialSettings.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -36,9 +41,14 @@
 				"local" : 1
 			}
 ,
-			"RangeGUI.maxpat" : 			{
+			"download-sheet.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/[TesserAkt]/TesserAkt/tesser_ranges/download-sheet",
+					"projectrelativepath" : "../download-sheet"
+				}
+
 			}
 
 		}
