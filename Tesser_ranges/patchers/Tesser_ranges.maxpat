@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1249.0, 937.0 ],
+		"rect" : [ 255.0, 79.0, 1245.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,128 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 1.0, 0.0, 0.792156862745098, 1.0 ],
+					"id" : "obj-89",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 744.5, 603.500005960464478, 106.0, 22.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr print-midi-out",
+					"varname" : "print-midi-out"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-90",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 788.0, 640.0, 81.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 615.0, 21.5, 69.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_linknames" : 1,
+							"parameter_longname" : "print_midiout",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "print_midiout",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "print midi out",
+					"texton" : "print midi out",
+					"varname" : "print_midiout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-102",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 788.0, 675.166667282581329, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 1.0, 0.0, 0.792156862745098, 1.0 ],
+					"id" : "obj-85",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 685.0, -36.499994039535522, 99.0, 22.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr print-midi-in",
+					"varname" : "print-midi-in"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 725.0, -2.0, 81.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 615.0, 3.0, 69.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_linknames" : 1,
+							"parameter_longname" : "print_midiin",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "print_midiin",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "print midi in",
+					"texton" : "print midi in",
+					"varname" : "print_midiin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 725.0, 33.166667282581329, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-83",
 					"maxclass" : "number",
@@ -2195,7 +2317,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 804.0, 670.0, 117.0, 22.0 ],
+					"patching_rect" : [ 788.0, 713.0, 117.0, 22.0 ],
 					"text" : "print midirange-OUT"
 				}
 
@@ -2206,7 +2328,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 759.0, 61.0, 104.0, 22.0 ],
+					"patching_rect" : [ 725.0, 70.0, 104.0, 22.0 ],
 					"text" : "print midirange-IN"
 				}
 
@@ -5568,6 +5690,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-104", 0 ]
 				}
@@ -5769,7 +5898,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
+					"destination" : [ "obj-102", 1 ],
 					"order" : 2,
 					"source" : [ "obj-15", 0 ]
 				}
@@ -6014,17 +6143,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"order" : 1,
-					"source" : [ "obj-45", 0 ]
+					"destination" : [ "obj-63", 0 ],
+					"midpoints" : [ 962.499999225139618, 120.000000894069672, 465.5, 120.000000894069672 ],
+					"source" : [ "obj-45", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"midpoints" : [ 962.499999225139618, 120.000000894069672, 465.5, 120.000000894069672 ],
-					"source" : [ "obj-45", 2 ]
+					"destination" : [ "obj-74", 1 ],
+					"order" : 1,
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -6239,6 +6368,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-75", 0 ]
 				}
@@ -6318,6 +6454,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"source" : [ "obj-85", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-86", 0 ]
 				}
@@ -6334,6 +6484,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"source" : [ "obj-89", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-102", 0 ],
+					"source" : [ "obj-90", 0 ]
 				}
 
 			}
@@ -6424,6 +6588,8 @@
 			"obj-77::obj-39::obj-2" : [ "live.menu[1]", "live.menu", 0 ],
 			"obj-8" : [ "OSCin", "OSCin", 0 ],
 			"obj-81" : [ "layouts_menu", "layouts_menu", 0 ],
+			"obj-84" : [ "print_midiin", "print_midiin", 0 ],
+			"obj-90" : [ "print_midiout", "print_midiout", 0 ],
 			"obj-92" : [ "number", "number", 0 ],
 			"parameterbanks" : 			{
 
